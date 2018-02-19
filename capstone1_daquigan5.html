@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<!-- charset for western characters-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--for mobile devices-->
+	
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<link rel="stylesheet" type="text/cass" href="daquigancap1/capstone1_daquigan.css">
+
+	<!--<link rel="stylesheet" type="text/css" href="css/bootchino2.css"> -->
+
+ 	<!--scripts here, transfer to the bottom soon-->
+
+	<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>	
+	<script type="text/javascript" src="js/bootstrap.min.js"></script> -->
+
+<!--copied scripts from getbootstrap-->
+<!-- Latest compiled and minified CSS -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+<!-- Optional theme -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+<!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>	
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script src="https://use.fontawesome.com/63421b52b2.js"></script>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Black+Ops+One|Bungee+Inline|Concert+One|Fredericka+the+Great|Iceland|Katibeh|Monoton|Nova+Flat|Oregano|Righteous|Shrikhand|Sigmar+One|Vast+Shadow');
+
+/** {
+	border: 1px solid blue;
+}*/
+
+/*.jumbotron {
+  background-image:url("capstone1pics/hendrixbw.jpg");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom:5px solid #ff6a00;
+}*/
+
+.jumbotron {
+    background: url("capstone1pics/hendrixbw.jpg") no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.marpad0 {
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	background-color: #2e2e2e;
+}
+
+.topbox {
+  text-align: center;
+  height: 33%;
+  width:auto;
+  margin:0;
+  margin-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-image: url('capstone1pics/concert1bw.jpg');
+  
+  border-top: 1px solid gold;
+  border-bottom: 1px solid gold
+}
+
+.aboutbox {
+  text-align: center;
+  height: 33%;
+  width:auto;
+  margin:0;
+  margin-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-image: url('capstone1pics/amp1bw.jpg');
+  
+  border-top: 1px solid gold;
+  border-bottom: 1px solid gold
+}
+
+/*h3 {
+  font-family: Iceland;
+}*/
+
+.Righteous {
+  font-family: Righteous;
+}
+
+a:hover {
+  color:white;
+}
+
+
+/*.carousel-caption {
+  width: 100%;
+}*/
+.item {
+  width:100%;
+  max-height: 50em !important;
+}
+
+.legendicon {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2em;
+}
+
+.navtext {
+  font-size: large;
+}
+
+.whitetext {
+	color:white;
+}
+
+.Iceland {
+  font-family: Iceland;
+}
+
+.mapa {
+  height: 15em;
+  width: 15em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+/*.martop5 {
+  margin-top: 5em;
+}*/
+
+/*footer css */
+.bottom {
+  margin-top: 1px solid gold;
+  background color: #2e2e2e;
+  text-align: center;
+}
+
+/*.boxtest {
+  width:80em;
+  height:40em;
+  border-color: 1px solid red;
+}*/
+
+
+/*end footer css here */
+
+
+/* map css */
+/* #map {
+   width: 100%;
+   height: 400px;
+   background-color: #2e2e2e;
+ }*/
+
+ /* button css */
+
+ .button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+
+
+</style>
+
+	<title>The Legends / About</title>
+  <link rel="shorcut icon" href="capstone1pics/legendsicon.png">
+
+
+</head>
+
+<body>
+<nav class="navbar navbar-inverse" style="border-bottom:1px solid gold;">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">
+      <img src="capstone1pics/legendsicon.png" alt="the legends" class="legendicon">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navtext">      
+        <li><a href="#"><p style="font-family: Righteous;"><strong>Home</strong><p></a></li>
+        <li><a href="#"><p style="font-family: Righteous;"><strong>About</strong><p></a></li>
+        <li><a href="#"><p style="font-family: Righteous;"><strong>Gallery</strong><p></a></li>
+        <li><a href="#"><p style="font-family: Righteous;"><strong>Tour</strong><p></a></li>
+        <li><a href="#"><p style="font-family: Righteous;"><strong>Index</strong><p></a></li>
+        <li><a href="#"><p style="font-family: Righteous;"><strong>Contact</strong><p></a></li>
+      </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" style="font-size: 201%; color: white;"><p style="font-family: Iceland;"> THE LEGENDS<span class="glyphicon glyphicon-fire" style="color:gold;"></span></p></a></li>
+    </ul>
+    <br><br><br>
+    </div>
+  </div>
+</nav>
+
+<div class="whitetext container">
+    <h2 style="font-family: Righteous;"><strong style="color:gold; font-style: oblique;">Hendrix. Grohl. Flea. Cornell. </strong> Wow. Honestly, no introductions needed. Legends on their own accords, but to have these four gods play together, it is something even the heavens will dream to witness. </h2><br>
+    <h3 style="font-family: Righteous;"> But we will do it and introduce them anyway, for the sake of presentation (just like how lords and masters are introduced in wherever they go and whatever they do; regal like that). Feel blessed, feel honored, feel special, we present to you, The Legends. </h3> <br><br> 
+</div>
+
+<div class="whitetext container">
+  <div class="row">
+    <div class="col-sm-12">
+      <div class="row">
+        <div class="col-sm-3">
+         <!--  <img src="capstone1pics/flea2color.jpg" class="img-responsive">  -->
+          <!--sample photo -->
+        <!-- put Spotify player here, and add album thumbnails-->
+          <h3 style="font-family: Righteous; color:gold; text-align: center;">Listen now!</h4>
+           <p style="padding-bottom: 3em; font-family: Righteous;">Consider yourselves #blessed, as we have compiled some of the biggest and most influential compositions from the group. Don't forget to share the love! <!-- Share this playlist to your friends and spread these peices of eargasmic pleasures. And go to shows, it's a lot more awesome to see live performances. It's gonna be wicked, we promise. -->
+          </p> 
+          <iframe src="https://open.spotify.com/embed/user/thekeygun/playlist/0rJHMPyiFZhYct5U4TdB4f" width="250" height="620" frameborder="0" allowtransparency="true" embed-responsive></iframe>
+          
+          <h5 style="font-family: Righteous; padding-top: 3em;"> Powered by:</h5>
+          
+           <figure class="figure">
+              <img src="capstone1pics/adspotify.png" class="figure-img img-fluid rounded img-responsive" alt="spotify ad"><a href="#"></a>
+          </figure>
+
+          <figure class="figure">
+              <img src="capstone1pics/ad3.jpg" class="figure-img img-fluid rounded img-responsive" alt="spotify ad"><a href="#"></a>
+          </figure>
+
+          <figure class="figure">
+              <img src="capstone1pics/ad8.jpg" class="figure-img img-fluid rounded img-responsive" alt="spotify ad"><a href="#"></a>
+          </figure>
+          </div>
+       
+      <!-- </div>
+         <div class="row">
+          </div class="col-sm-12">
+            <div class="row">  -->
+
+          <!--   <h2 style="font-family: Bungee Inline; text-align: center; margin-bottom: 5%; color:lightgrey">The Band:</h2> -->
+
+          <h1 class="whitetext" style="font-family: Bungee Inline; margin-left: 3%; margin-top:2%; margin-bottom: 8%; text-align: center;">Legendary Members<span style="color:gold;"class="glyphicon glyphicon-fire"></span></h1>
+
+              <div class="col-sm-5 col-sm-offset-1" style="margin-bottom: 3%;">  
+                    <h1 class="Iceland" style="color:gold;">Jimi Hendrix- guitars</h1>
+                    <br>
+                    <div class="Righteous">
+                        <p>Born: November 27, 1942</p>
+                        <p>Title: Stylish Left-handed Guitar Virtuoso</p>
+                        <p>Genre: Rock, Pyschedelic Rock, Hard Rock, Blues, and crazy crazy riffs and performances that will leave your jaw dropped.</p>
+                        <p>Check out: Purple Haze, Electric Ladyland, and him setting a guitar on fire. yep. </p> 
+                        <p>Fun Fact: His first ever instrument is a worn-out 1 string ukelele he found in the garbage. Can play better than 99.99999% of earthlings. Was a former US Army paratrooper</p>
+                    </div>
+              </div>
+
+              
+              <div class="col-sm-3" style="margin-bottom: 3%;">
+                <img src="capstone1pics/hendrix4bw.jpg" class="img-responsive">
+              </div>
+              
+
+              
+              <div class="col-sm-3 col-sm-offset-1" style="margin-bottom: 3%;">
+            
+                <img src="capstone1pics/grohl8bw.jpg" class="img-responsive">
+              </div>
+
+
+               <div class="col-sm-5" style="margin-bottom: 3%;">
+                   <h1 class="Iceland" style="color:gold">Dave Grohl- drums</h1>
+                    <br>
+                    <div class="Righteous">
+                        <p>Born: January 14, 1969</p>
+                        <p>Title: The Best Rock Drummer Ever</p>
+                        <p>Genre: Grunge, Post-Grunge, Hard Rock, Alternative Rock, Punk Rock, Heavy Metal. Absolutely a killer of the pigskin</p>
+                        <p>Check out: Foo Fighters, his blabbers, Them Crooked Vultures, </p>
+                        <p>Fun Fact: Hates American Idol. Hates being thrown mentos at. Will tell you to suck at your instrument and just play coz thats how Nirvana started </p>
+                    </div>
+              </div>
+              
+
+              
+              <div class="col-sm-5 col-sm-offset-1" style="margin-bottom: 3%;">
+                <h1 class="Iceland" style="color:gold;">Michael Peter "Flea" Balzary- bass</h1>
+                  <br>
+                  <div class="Righteous">
+                        <p>Born: October 16, 1962</p>
+                        <p>Title: Funky Jazzy Groovy Acrobatic Bass Master</p>
+                        <p>Genre: Funk, Funk Metal, Jazz, Alternative Rock, Punk,</p>
+                        <p>Check out: Rocket Juice And The Moon, his backflips, Blood Sex Sugar Magik</p>
+                        <p>Fun Fact: Was called "Flea" due to his inability to sit still, bleeds purple and blue for the LA Lakers, has yet to find his shirt which has been missing for centuries, let's help him get clothed. </p>
+                    </div>
+              </div>
+
+
+              <div class="col-sm-3" style="margin-bottom: 3%;">       <img src="capstone1pics/flea7bw.jpg" class="img-responsive">
+              </div>
+             
+
+              
+              <div class="col-sm-3 col-sm-offset-1" style="margin-bottom: 3%;">
+                <img src="capstone1pics/cornell6bw.jpg" class="img-responsive">
+              </div>
+
+               <div class="col-sm-5" style="margin-bottom: 3%;">
+            <h1 class="Iceland" style="color:gold;">Chris Cornell- vocals</h1>
+                  <br>
+                  <div class="Righteous">
+                        <p>Born: July 20, 1964</p>
+                        <p>Title: The Voice God</p>
+                        <p>Genre: Grunge, Hard rock, Heavy Metal, Alternative Rock, though he can sing anything, seriously.</p>
+                        <p>Check out: Temple of the Dog,Cochise, Nothing Compares to You acoustic rendition.</p>
+                        <p>Fun Fact: The best vocalist to ever sing in the entire universe was a former sous-chef for a seafood restaurant. Baritone. Tenor. Nearly 4 Octaves vocal range. That's stacked. </p>
+                    </div>
+              </div>
+              
+
+              
+
+
+     
+     </div>
+    </div>
+  </div> <!--first row closer -->
+</div>
+
+
+
+<footer>
+  <div class="row bottom">
+    <div class="column" style="text-align: center;">
+    	<div style="background-color: #4F4F4F;">
+    		<h5 class="whitetext" style="padding-top: 2%; font-family: Righteous;"> Don't miss out, follow us: </h5>
+      			<a href="https://www.facebook.com">
+        			<i class="fa fa-facebook-square fa-3x" aria-hidden="true">
+        			</i>
+      			</a>
+      			<a href="https://www.github.com">
+        			<i class="fa fa-github-square fa-3x" aria-hidden="true">
+        			</i>
+      			</a>
+      			<a href="https://www.twitter.com">
+        			<i class="fa fa-twitter-square fa-3x" aria-hidden="true">
+        			</i>
+      			</a>
+      			<a href="https://www.youtube.com">
+        			<i class="fa fa-youtube fa-3x" aria-hidden="true">
+        			</i>
+      			</a>
+      			<a href="https://www.spotify.com">
+        			<i class="fa fa-spotify fa-3x" aria-hidden="true">
+        			</i>
+      			</a>
+      			<a href="https:www.instagram.com">
+        			<i class="fa fa-instagram fa-3x" aria-hidden="true">
+       				 </i>
+     			 </a>
+      	</div>
+
+      	<div class="container-fluid">
+        	<h3 class="footmsg" style="color: gold; text-align: center; font-family: Iceland;"><a href="#"> The Legends </a><span class="glyphicon glyphicon-fire"></span> &copy; 2018 </h6>
+          <p class="footmsg" style="color: white; text-align: center; font-family: Righteous;"> Disclaimer: This fictional band and website is for educational purposes only. All photos, songs, and details are not mine, all credit goes to the respective owners. No copyright infringement intended. Rock n' Roll! </p>
+        </h3>
+      </div>
+  </div>
+</div>
+
+</footer>
+
+
+</body>
+</html>

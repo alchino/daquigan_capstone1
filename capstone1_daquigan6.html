@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+	<!-- charset for western characters-->
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!--for mobile devices-->
+	
+
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+	<link rel="stylesheet" type="text/cass" href="daquigancap1/capstone1_daquigan.css">
+
+	<!--<link rel="stylesheet" type="text/css" href="css/bootchino2.css"> -->
+
+ 	<!--scripts here, transfer to the bottom soon-->
+
+	<!-- <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>	
+	<script type="text/javascript" src="js/bootstrap.min.js"></script> -->
+
+<!--copied scripts from getbootstrap-->
+<!-- Latest compiled and minified CSS -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+
+<!-- Optional theme -->
+<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous"> -->
+
+<!-- Latest compiled and minified JavaScript -->
+<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>	
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<script src="https://use.fontawesome.com/63421b52b2.js"></script>
+
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Alfa+Slab+One|Black+Ops+One|Bungee+Inline|Concert+One|Fredericka+the+Great|Iceland|Katibeh|Monoton|Nova+Flat|Oregano|Righteous|Shrikhand|Sigmar+One|Vast+Shadow');
+
+/** {
+	border: 1px solid blue;
+}*/
+
+/*.jumbotron {
+  background-image:url("capstone1pics/hendrixbw.jpg");
+  height: 100%;
+  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-bottom:5px solid #ff6a00;
+}*/
+
+.jumbotron {
+    background: url("capstone1pics/hendrixbw.jpg") no-repeat center center; 
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+}
+
+.marpad0 {
+	margin: 0;
+	padding: 0;	
+}
+
+body {
+	background-color: #2e2e2e;
+}
+
+.topbox {
+  text-align: center;
+  height: 33%;
+  width:auto;
+  margin:0;
+  margin-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-image: url('capstone1pics/concert1bw.jpg');
+  border-top: 1px solid gold;
+  border-bottom: 1px solid gold;
+}
+
+.aboutbox {
+  text-align: center;
+  height: 33%;
+  width:auto;
+  margin:0;
+  margin-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-image: url('capstone1pics/amp1bw.jpg');
+  border-top: 1px solid gold;
+  border-bottom: 1px solid gold;
+}
+
+.indexbox {
+  text-align: center;
+  height: 33%;
+  width:auto;
+  margin:0;
+  margin-bottom: 5%;
+  padding-top: 3%;
+  padding-bottom: 3%;
+  background-image: url('capstone1pics/stagedive2bw.jpg');
+  
+  border-top: 1px solid gold;
+  border-bottom: 1px solid gold;
+}
+
+/*h3 {
+  font-family: Iceland;
+}*/
+
+.Righteous {
+  font-family: Righteous;
+}
+
+
+/*.carousel-caption {
+  width: 100%;
+}*/
+.item {
+  width:100%;
+  max-height: 50em !important;
+}
+
+.legendicon {
+  width: 35px;
+  height: 35px;
+  padding: 0;
+  margin: 0;
+  margin-bottom: 2em;
+}
+
+.navtext {
+  font-size: large;
+}
+
+.whitetext {
+	color:white;
+}
+
+.Iceland {
+  font-family: Iceland;
+}
+
+.mapa {
+  height: 15em;
+  width: 15em;
+  margin-top: 4em;
+  margin-bottom: 4em;
+}
+/*.martop5 {
+  margin-top: 5em;
+}*/
+
+/*footer css */
+.bottom {
+  margin-top: 1px solid gold;
+  background color: #2e2e2e;
+  text-align: center;
+}
+
+/*.boxtest {
+  width:80em;
+  height:40em;
+  border-color: 1px solid red;
+}*/
+
+
+/*end footer css here */
+
+
+/* map css */
+/* #map {
+   width: 100%;
+   height: 400px;
+   background-color: #2e2e2e;
+ }*/
+
+ /* button css */
+
+ .button {
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: #4CAF50; /* Green */
+    color: white;
+}
+
+a:hover {
+  color:white;
+}
+
+
+/* Smaller than standard 960 (devices and browsers) */
+@media only screen and (max-width: 959px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) and (max-width: 959px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+
+
+</style>
+
+	<title>The Legends / Index</title>
+<link rel="shorcut icon" href="capstone1pics/legendsicon.png">
+
+</head>
+
+<body>
+<nav class="navbar navbar-inverse" style="border-bottom:1px solid gold;">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span> 
+      </button>
+      <a class="navbar-brand" href="#">
+      <img src="capstone1pics/legendsicon.png" alt="the legends" class="legendicon">
+      </a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navtext">      
+        <li><a href="#"><p style="font-family: Righteous;"><strong>Home</strong><p></a></li>
+        <li><a href="#"><p style="font-family: Righteous;"><strong>About</strong><p></a></li>
+        <li><a href="#"><p style="font-family: Righteous;"><strong>Gallery</strong><p></a></li>
+        <li><a href="#"><p style="font-family: Righteous;"><strong>Tour</strong><p></a></li>
+        <li><a href="#"><p style="font-family: Righteous;"><strong>Index</strong><p></a></li>
+        <li><a href="#"><p style="font-family: Righteous;"><strong>Contact</strong><p></a></li>
+      </ul>
+    <ul class="nav navbar-nav navbar-right">
+        <li><a href="#" style="font-size: 201%; color: white;"><p style="font-family: Iceland;"> THE LEGENDS<span class="glyphicon glyphicon-fire" style="color:gold;"></span></p></a></li>
+    </ul>
+    <br><br><br>
+    </div>
+  </div>
+</nav>
+
+<div class="indexbox whitetext container">
+    <h2 style="font-family: Concert One; font-style: oblique;">"Anything worth doing good takes a little chaos."</h2>
+    <h3> -Flea </h3>
+</div>
+
+<div class="container">
+  <div class="row">
+  <h2 class="whitetext container" style="font-family: Righteous;"> Here are some videos and related music from us and our friends in the industry. We highly encourage you check them out also, for they make wonderful beautiful music that we ourselves love and adore. From tutorials, to covers, to live performances, to just  random crazy stuff, we got some here for you. Spread the love! <br><br><br></h2>
+    <div class="col-sm-12">
+      <div class="row">
+        <div class="col-sm-6">
+          <h3 class="Righteous" style="color: gold;"><a href="#">Flea's Words of Wisdom To Aspiring Musicians</a></h3>
+          <p class="whitetext Righteous container"> February 14 2018 11:01am</p>
+          <div class="embed-responsive embed-responsive-16by9 embed-responsive-21by9 embed-responsive-4by3 embed-responsive-1by1">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/qr58qCF5xRM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+               <p>
+                  <button class="btn btn-sm btn-success">
+                    <span class="glyphicon glyphicon-thumbs-up"></span>
+                  </button>
+
+                  <button class="btn btn-sm btn-danger">
+                    <span class="glyphicon glyphicon-thumbs-down"></span>
+                  </button>
+
+                  <button class="btn btn-sm btn-default">
+                    <span class="glyphicon glyphicon-comment"></span>
+                  </button>
+            </p>
+          <br><br><br>
+
+
+          <h3 class="Righteous" style="color: gold;"><a href="#">Must Watch! This Chris Cornell Cover Will Send Shivers Down Your Spine</a></h3>
+          <p class="whitetext Righteous container"> February 11 2018 10:31pm</p>
+
+          <div class="embed-responsive embed-responsive-16by9 embed-responsive-21by9 embed-responsive-4by3 embed-responsive-1by1">
+          <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/IuUDRU9-HRk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe> 
+          </div>
+          <p>
+                  <button class="btn btn-sm btn-success">
+                    <span class="glyphicon glyphicon-thumbs-up"></span>
+                  </button>
+
+                  <button class="btn btn-sm btn-danger">
+                    <span class="glyphicon glyphicon-thumbs-down"></span>
+                  </button>
+
+                  <button class="btn btn-sm btn-default">
+                    <span class="glyphicon glyphicon-comment"></span>
+                  </button>
+            </p>
+          <br><br><br>
+
+          <h3 class="Righteous" style="color: gold;"><a href="#">A Glimpse Of Jimi: A Closer Look At His Style</a></h3>
+          <p class="whitetext Righteous container"> February 05 2018 05:09pm</p>
+          <div class="embed-responsive embed-responsive-16by9 embed-responsive-21by9 embed-responsive-4by3 embed-responsive-1by1">
+            <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/vhz-yf0DF10" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+          </div>
+               <p>
+                  <button class="btn btn-sm btn-success">
+                    <span class="glyphicon glyphicon-thumbs-up"></span>
+                  </button>
+
+                  <button class="btn btn-sm btn-danger">
+                    <span class="glyphicon glyphicon-thumbs-down"></span>
+                  </button>
+
+                  <button class="btn btn-sm btn-default">
+                    <span class="glyphicon glyphicon-comment"></span>
+                  </button>
+            </p>
+          <br><h3 class="whitetext Righteous"><a href="#">load more...</a></h3><br>          
+
+        </div>
+        <div class="col-sm-6">
+           <h2 class="Righteous" style="color: gold; margin-bottom: 2em;">Check out these albums from our friends and idols:</h2>
+              <div class="row">
+                <div class="col-sm-6">
+                    <figure class="figure">
+                      <a href="#">
+                        <img src="capstone1pics/album2.jpg" class="figure-img img-fluid rounded img-responsive" alt="smashing pumpkins">
+                      </a>
+                        <p class="Righteous whitetext" style="text-align:center">Smashing Pumpkins</p>
+                    </figure>
+
+                    <figure class="figure">
+                      <a href="#">
+                        <img src="capstone1pics/album3.jpg" class="figure-img img-fluid rounded img-responsive" alt="smashing pumpkins">
+                      </a>
+                        <p class="Righteous whitetext" style="text-align:center">Alice In Chains</p>
+                    </figure>
+
+                  <figure class="figure">
+                      <a href="#">
+                        <img src="capstone1pics/album4.jpg" class="figure-img img-fluid rounded img-responsive" alt="smashing pumpkins">
+                      </a>
+                        <p class="Righteous whitetext" style="text-align:center">Nirvana</p>
+                    </figure>
+
+                    <figure class="figure">
+                      <a href="#">
+                        <img src="capstone1pics/album5.jpg" class="figure-img img-fluid rounded img-responsive" alt="smashing pumpkins">
+                      </a>
+                        <p class="Righteous whitetext" style="text-align:center">Silverchair</p>
+                    </figure>
+
+                  <figure class="figure">
+                      <a href="#">
+                        <img src="capstone1pics/album6.jpg" class="figure-img img-fluid rounded img-responsive" alt="smashing pumpkins">
+                      </a>
+                        <p class="Righteous whitetext" style="text-align:center">A Perfect Circle</p>
+                    </figure>
+
+                    <figure class="figure">
+                      <a href="#">
+                        <img src="capstone1pics/album7.jpg" class="figure-img img-fluid rounded img-responsive" alt="smashing pumpkins">
+                      </a>
+                        <p class="Righteous whitetext" style="text-align:center">Phoenix</p>
+                    </figure>
+
+                    <figure class="figure">
+                      <a href="#">
+                        <img src="capstone1pics/album16.jpg" class="figure-img img-fluid rounded img-responsive" alt="smashing pumpkins">
+                      </a>
+                        <p class="Righteous whitetext" style="text-align:center">Weezer</p>
+                    </figure>
+
+                </div>
+
+                 <div class="col-sm-6">
+                    <figure class="figure">
+                      <a href="#">
+                        <img src="capstone1pics/album15.jpg" class="figure-img img-fluid rounded img-responsive" alt="smashing pumpkins">
+                      </a>
+                        <p class="Righteous whitetext" style="text-align:center">At The Drive-In</p>
+                    </figure>
+
+                    <figure class="figure">
+                      <a href="#">
+                        <img src="capstone1pics/album9.jpg" class="figure-img img-fluid rounded img-responsive" alt="smashing pumpkins">
+                      </a>
+                        <p class="Righteous whitetext" style="text-align:center">Deftones</p>
+                    </figure>
+
+                    <figure class="figure">
+                      <a href="#">
+                        <img src="capstone1pics/album10.jpg" class="figure-img img-fluid rounded img-responsive" alt="smashing pumpkins">
+                      </a>
+                        <p class="Righteous whitetext" style="text-align:center">Snoop Dogg</p>
+                    </figure>
+
+                    <figure class="figure">
+                      <a href="#">
+                        <img src="capstone1pics/album11.jpg" class="figure-img img-fluid rounded img-responsive" alt="smashing pumpkins">
+                      </a>
+                        <p class="Righteous whitetext" style="text-align:center">Iron Maiden</p>
+                    </figure>
+
+                    <figure class="figure">
+                      <a href="#">
+                        <img src="capstone1pics/album12.jpg" class="figure-img img-fluid rounded img-responsive" alt="smashing pumpkins">
+                      </a>
+                        <p class="Righteous whitetext" style="text-align:center">The Beatles</p>
+                    </figure>
+
+                    <figure class="figure">
+                      <a href="#">
+                        <img src="capstone1pics/album13.jpg" class="figure-img img-fluid rounded img-responsive" alt="smashing pumpkins">
+                      </a>
+                        <p class="Righteous whitetext" style="text-align:center">Radiohead</p>
+                    </figure>
+
+                    <figure class="figure">
+                      <a href="#">
+                        <img src="capstone1pics/album17.jpg" class="figure-img img-fluid rounded img-responsive" alt="smashing pumpkins">
+                      </a>
+                        <p class="Righteous whitetext" style="text-align:center">Rage Against The Machine</p>
+                    </figure>
+
+                </div>
+              </div>
+
+
+
+
+      </div> 
+   </div>
+  </div>
+</div>
+
+<footer>
+  <div class="row bottom">
+    <div class="column" style="text-align: center;">
+    <div style="background-color: #4F4F4F;">
+    <h5 class="whitetext" style="padding-top: 2%; font-family: Righteous;"> Don't miss out, follow us: </h5>
+      <a href="https://www/facebook.com">
+        <i class="fa fa-facebook-square fa-3x" aria-hidden="true">
+        </i>
+      </a>
+      <a href="https://www.github.com">
+        <i class="fa fa-github-square fa-3x" aria-hidden="true">
+        </i>
+      </a>
+      <a href="https://www.twitter.com">
+        <i class="fa fa-twitter-square fa-3x" aria-hidden="true">
+        </i>
+      </a>
+      <a href="https://www.youtube.com">
+        <i class="fa fa-youtube fa-3x" aria-hidden="true">
+        </i>
+      </a>
+      <a href="https://www.spotify.com">
+        <i class="fa fa-spotify fa-3x" aria-hidden="true">
+        </i>
+      </a>
+      <a href="https:www.instagram.com">
+        <i class="fa fa-instagram fa-3x" aria-hidden="true">
+        </i>
+      </a>
+      </div>
+      <div class="container-fluid">
+        <h3 class="footmsg" style="color: gold; text-align: center; font-family: Iceland;"><a href="#"> The Legends </a><span class="glyphicon glyphicon-fire"></span> &copy; 2018 </h6>
+          <p class="footmsg" style="color: white; text-align: center; font-family: Righteous;"> Disclaimer: This fictional band and website is for educational purposes only. All photos, songs, and details are not mine, all credit goes to the respective owners. No copyright infringement intended. Rock n' Roll! </p>
+        </h3>
+      </div>
+  </div>
+</footer>
+
+
+</body>
+</html>
